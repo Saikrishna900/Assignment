@@ -1,0 +1,269 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+  background-color: #B0D2F9;
+}
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-card {
+    width: 75rem;
+    height: 46rem;
+    position: relative;
+    background: url('https://images.pexels.com/photos/3876447/pexels-photo-3876447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size:420px;
+    background-position: left;
+    border-radius: 50px;
+  }
+ 
+  
+  .button-container {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .plus-button {
+    position: relative;
+    font-size: 1.5rem;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+    color: #B0D2F9;
+    margin-right: 0px;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+  }
+  
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .switch {
+    position: relative;
+    width: 40px;
+    height: 15px;
+  left: -5px;
+  top: 1px;
+    border-radius: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  }
+  
+  .switch:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 3px;
+    left: 2px;
+    background-color: white;
+    transition: left 0.3s;
+  }
+  
+  .switch.on {
+    background-color: #3f9ae5;
+  }
+  
+  .switch.on:before {
+    left: calc(100% - 10px);
+  }
+  .switch-label-f{
+    padding-left: 50px;
+    margin-right: 5px;
+    font-size: 1rem;
+    color: white;
+  }
+  .switch-label-c{
+    margin-right: 7px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .switch-label.on {
+    color: white;
+  }
+  
+  .switch-label.off {
+    color: #999;
+    text-align: right;
+ 
+  }
+  
+  .nav-bar-icon {
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+  }
+  
+  .country {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  
+  .cn {
+    position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:115px;
+    font-size: 20px;
+    left: 45px;
+  }
+  
+  .sunrise-icon{
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+  }
+  .time{
+    position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:115px;
+    font-size: 20px;
+    left: 265px;
+  }
+
+.date{
+  position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:150px;
+    font-size: 16px;
+    left: 45px;
+}
+
+.sunset-icon{
+  color: white;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+.time-1{
+  position: absolute;
+  margin-left: 5px;
+  color: white;
+  top:145px;
+  font-size: 20px;
+  left: 265px;
+}
+
+.temperature{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left{
+  position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:280px;
+    font-size: 20px;
+    left: 30px;
+}
+
+.temp{
+  position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:220px;
+    font-size: 100px;
+    left:110px;
+}
+
+.right{
+  position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:280px;
+    font-size: 20px;
+    left: 280px;
+}
+.sun{
+  position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:335px;
+    font-size: 20px;
+    left: 115px;
+}
+
+.condition{
+  position: absolute;
+    margin-left: 5px;
+    color: white;
+    top:330px;
+    font-size: 20px;
+    left: 140px;
+}
+
+@media ( max-width: 300px) {
+  .card-container{
+    position: relative;
+   display: block;
+  }
+  
+}
+
+@media ( min-width: 300px) and ( max-width: 500px)  {
+  .card-container{
+    position: relative;
+   display: block;
+  }
+  
+}
+
+@media ( min-width: 500px) and ( max-width: 800px)  {
+  .card-container{
+   
+    position: relative;
+    display: block;
+  }
+}
+@media ( min-width: 800px) and ( max-width: 1200px)  {
+  .card-container{
+   
+    position: relative;
+    display: block;
+  }
+  
+}
+

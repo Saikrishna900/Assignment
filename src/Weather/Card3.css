@@ -1,0 +1,318 @@
+
+/*Details card -1*/
+
+.details-container {
+    position: absolute;
+    left: 540px;
+    top: 410px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .details-card {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  .water-drop-icon {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    font-size: 24px; 
+    border: 2px solid #3f9ae5;
+    background-color: #3f9ae5;
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+  
+  .details-text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .details-value {
+    font-weight: bold;
+    padding-right:150px;
+    position: relative;
+    top: 10px;
+    
+  }
+  .details-status {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+  }
+  
+  .details-percentage {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .details-description {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .captions {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .caption {
+    flex: 1;
+    height: 8px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .progress-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    height: 8px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .progress-bar-danger {
+    background: linear-gradient(to right, #3f9ae5 0%, #3f9ae5 50%, rgba(117, 114, 114, 0.74) 50%,rgba(117, 114, 114, 0.74) 100%);
+  }
+  
+  .progress-bar-success {
+    background-color: #3f9ae5;
+  }
+  
+
+  /*Details Card-2 */
+
+  .details-km{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+   top:55px;
+   left: 6px;
+
+  }
+
+  .speedometer-icon{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    font-size: 120px; 
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3f9ae5;
+    width:50%;
+  }
+
+  .progress-bar-danger-3{
+    background-color: rgba(117, 114, 114, 0.74);
+  }
+
+   /*Details Card-3 */
+
+   .captions-3 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  
+  .caption-3 {
+    flex: 1;
+    height: 8px;
+    border-radius: 5px;
+    margin: 4px;
+    font-size: 14.5px;
+  }
+  .progress-container-3 {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+    
+  }
+  
+  .progress-bar-3 {
+    flex: 1;
+    height: 8px;
+    border-radius: 5px;
+    margin: 3px;
+    
+  }
+
+  .details-value-3 {
+    font-weight: bold;
+    padding-right:150px;
+    position: relative;
+    top: 15px;
+    left:15px;
+  }
+ /*Details Card-4 */
+  .captions-4 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+   margin-left: 7px;
+  }
+  
+  .caption-4 {
+    flex: 1;
+    height: 8px;
+    border-radius: 5px;
+    padding-top: 11px;
+    font-size: 14px;
+  }
+
+  .progress-container-4 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .progress-bar-4 {
+    flex: 1;
+    height: 8px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .details-value-4 {
+    font-weight: bold;
+    padding-right:150px;
+    position: relative;
+    top: 15px;
+    left:10px;
+  }
+   /*Details Card-5 */
+  
+    .progress-bar-success-5 {
+        background: linear-gradient(to right, #3f9ae5 60%, #3f9ae5 60%, rgba(117, 114, 114, 0.74) 50%, rgba(117, 114, 114, 0.74) 100%);
+    }
+    
+    .captions-5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 26px;
+    }
+    
+    .caption-5 {
+        flex: 1;
+        height: 8px;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-right: 50px;
+        font-size: 15px;
+        margin-right: 20px; /* Adjust the desired space between captions */
+    }
+    
+    .caption-5:last-child {
+        margin-right: 0; /* Remove the right margin from the last caption */
+    }
+    
+    .details-value-5 {
+        font-weight: bold;
+        padding-right:150px;
+        position: relative;
+        top: 15px;
+        left:10px;
+      }
+    /*Details Card-6 */
+  
+    .progress-bar-success-6 {
+        background: linear-gradient(to right, #3f9ae5 42%, #3f9ae5 42%, rgba(117, 114, 114, 0.74) 50%, rgba(117, 114, 114, 0.74) 100%);
+    }
+    .captions-6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    
+    .caption-6 {
+        flex: 1;
+        height: 8px;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-right: 15px;
+        font-size: 15px;
+        /* Adjust the desired space between captions */
+    }
+    
+    .caption-6:last-child {
+        margin-right: 0; /* Remove the right margin from the last caption */
+    }
+
+    .details-value-6 {
+        font-weight: bold;
+        padding-right:150px;
+        position: relative;
+        top: 15px;
+        left:30px;
+      }
+
+        
+@media ( max-width: 300px) {
+  .details-container{
+    position: absolute;
+    left: 390px;
+ 
+  }
+  
+}
+
+@media ( min-width: 300px) and ( max-width: 500px)  {
+  .details-container{
+    position: absolute;
+    left: 390px;
+ 
+  }
+}
+
+@media ( min-width: 500px) and ( max-width: 800px)  {
+  .details-container{
+    position: absolute;
+   
+   left: 390px;
+ 
+  }
+}
+@media ( min-width: 800px) and ( max-width: 1200px)  {
+  .details-container{
+    position: absolute;
+   
+    left: 390px;
+ 
+  }
+}
+
+
+

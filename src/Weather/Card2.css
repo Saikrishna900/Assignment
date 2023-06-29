@@ -1,0 +1,170 @@
+
+
+.weather-card {
+    position: absolute;
+    right: 160px;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55rem;
+    height: 46rem;
+    background-color: #E4F1FF;
+    border-radius: 50px;
+  }
+
+  .hour-card {
+    position: absolute;
+    right: 40px;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    height: 16rem;
+    background-color: white;
+    border-radius: 50px;
+  }
+  .uc{
+    padding-right: 620px;
+    padding-top: 20px;
+  }
+
+  .details-heading-1 {
+    position: absolute;
+    right: 520px;
+    top: 15px;
+    
+  }
+
+  .head-1{
+    padding-right: 100px;
+    font-size: 20px;
+  }
+  .para-1{
+    font-size: 18px;
+  }
+ 
+  .details-heading {
+    position: absolute;
+    right: 480px;
+    top: 355px;
+  }
+  .para-2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    right:220px;
+    position: relative;
+  }
+  .header-right {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1; /* Allow the content to grow and occupy remaining space */
+  }
+  
+  .profile-image {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    border-radius: 20%;
+    position: absolute;
+    right: 50px;
+  }
+  
+  .three-dots {
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+    left: 170px;
+  }
+  #dropdown-basic {
+    position: relative;
+    bottom: 116px;
+    left: 190px;
+    font-size: 16px; /* Updated font size */
+    width: 150px;
+    height: 30px;
+    background-color: rgba(237, 233, 233, 0.74);
+    color: black;
+    padding: 4px 0; /* Adjust the padding as needed */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #dropdown-basic-1 {
+    position: relative;
+    bottom: 220px;
+    left: 320px;
+    font-size: 16px; /* Updated font size */
+    width: 90px;
+    height: 30px;
+    background-color: rgba(237, 233, 233, 0.74);
+    color: black;
+    padding: 4px 0; /* Adjust the padding as needed */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-container {
+    position: absolute;
+    width: 100%;
+    height: 240px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  
+@media ( max-width: 300px) {
+  .weather-card{
+    position: absolute;
+   
+   left: 350px;
+   top:0;
+  }
+  
+}
+
+@media ( min-width: 300px) and ( max-width: 500px)  {
+  .weather-card{
+    position: absolute;
+   
+   left: 350px;
+   top:0;
+  }
+}
+
+@media ( min-width: 500px) and ( max-width: 800px)  {
+  .weather-card{
+    position: absolute;
+   
+   left: 350px;
+   top:0;
+  }
+}
+@media ( min-width: 800px) and ( max-width: 1200px)  {
+  .weather-card{
+    position: absolute;
+   
+   left: 350px;
+   top:0;
+  }
+}
+
